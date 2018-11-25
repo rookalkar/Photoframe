@@ -1,0 +1,83 @@
+body, h1, h2, h3, h4, h5 ,h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.message {
+  font-size: 36px;
+  color: #6F6F6F;
+  text-align: left;
+  margin-left: 75px;
+}
+
+.mycontainer {
+  position: relative;
+}
+
+.mycontainer img {
+  width: 100%;
+}
+
+.mycontainer button {
+  position: absolute;
+  top: 75px;
+  left: 75px;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.time {
+  font-size: 26px;
+  color: #6F6F6F;
+}
+.user p {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: left;
+}
+.secondary_button {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: #FC814A;
+  color: #FC814A;
+  font-size: 36px;
+  padding: 22px;
+  text-align: center;
+  box-shadow: 0px, 2px, 4px, 0px, #000000;
+}
+.primary_button{
+  background-color: #FC814A;
+  border-radius: 8px;
+  color: white;
+  font-size: 48px;
+  padding: 23px 256px;
+  text-align: center;
+}
+
+.primary_small_button{
+  line-height: 45px;
+  width: 440px;
+  margin: 50px 0px;
+  text-align: center;
+  height: 90px;
+  background-color: #FC814A;
+  border-radius: 8px;
+  color: white;
+  font-size: 42px;
+  padding: 23px;
+}
+
+h1 {
+  color: #181818;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #4A4A4A;
+  font-size: 36px;
+  font-weight: normal;
+}
