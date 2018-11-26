@@ -36,8 +36,8 @@
             <hr/>
             <textarea class="reply_input" placeholder="Write a reply for John" autofocus></textarea>
             <div class="row" id="reply_cta_buttons">
-              <button class="secondary_button" style="width: 440px; height: 90px;" onclick="hideReply()">CANCEL</button>
-              <button class="primary_small_button" onclick="sendReply()">SEND</button>
+              <button class="secondary_button_small" onclick="hideReply()">CANCEL</button>
+              <button class="primary_button_small" onclick="sendReply()">SEND</button>
             </div>
           </div>
 
@@ -47,21 +47,25 @@
           </div>
 
           <div class="row" id="cta_buttons">
-            <button class="primary_small_button" onclick="writeReply()">REPLY</button>
-            <button class="primary_small_button" onclick="makeCall()">CALL</button>
+            <button class="primary_button_small" onclick="writeReply()">REPLY</button>
+            <button class="primary_button_small" onclick="makeCall()">CALL</button>
           </div>
         </div>
       </div>
       <div id="overlay">
-        <p class="name">John Mobile</p>
-        <p class="number">+1 5823453932</p>
+        <a href="5823453932">
+          <p class="name">John Mobile</p>
+          <p class="number">+1 5823453932</p>
+        </a>
         <hr/>
-        <p class="name">John Office</p>
-        <p class="number">+1 5823453932</p>
+        <a href="5823453932">
+          <p class="name">John Office</p>
+          <p class="number">+1 5823453932</p>
+        </a>
         <hr/>
         <div class="row">
-          <button class="secondary_button" style="width: 300px; height:90px;" onclick="cancelCall()">CANCEL</button>
-          <button class="primary_button" style="width: 300px; padding: 23px; height:90px; line-height: 45px;">CALL</button>
+          <button class="secondary_button_small" onclick="cancelCall()">CANCEL</button>
+          <button class="primary_button_small">CALL</button>
         </div>
       </div>
     </div>

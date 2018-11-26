@@ -43,10 +43,12 @@ function switchTabs(element) {
   if (element.value == "first"){
     $("#first").addClass("button-active");
     $("#second").removeClass("button-active");
+    $("#photogallery").css('opacity', '0.6');
   }
   else {
     $("#second").addClass("button-active");
     $("#first").removeClass("button-active");
+    $("#photogallery").css('opacity', '1');
   }
 }
 
