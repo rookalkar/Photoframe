@@ -216,3 +216,69 @@ h2 {
   color: #FC814A;
   font-weight: bold;
 }
+
+.title {
+  color: #4A4A4A;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 43px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.heading {
+  margin-top: 60px;
+  padding-left: 50px;
+  text-align: left;
+  color: #4A4A4A;
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 1.78px;
+  line-height: 38px
+}
+
+.sub-heading {
+  padding-left: 50px;
+  text-align: left;
+  color: #4A4A4A;
+  font-family: Helvetica;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.time-button {
+  margin-top: 50px;
+	height: 60px;
+  width: 207px;
+  border-radius: 8px;
+  background-color: #FC814A;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+}
+
+.tab-button {
+  height: 105px;
+  width: 45%;
+  background-color: white;
+  box-shadow: 0 4px 8px 3px rgba(188,188,188,0.5);
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  border-bottom: 6px solid white;
+  border-radius: 6px;
+}
+
+.button-active {
+  color: #FC814A;
+  font-weight: bold;
+  border-bottom: 6px solid #FC814A;
+  border-radius: 6px;
+}
+
+.edit_buttons {
+  display: none;
+}

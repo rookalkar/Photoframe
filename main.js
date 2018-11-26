@@ -38,3 +38,47 @@ function sendReply() {
   $(".multiple_replies").show()
   $(".reply").hide()
 }
+
+function switchTabs(element) {
+  if (element.value == "first"){
+    $("#first").addClass("button-active");
+    $("#second").removeClass("button-active");
+  }
+  else {
+    $("#second").addClass("button-active");
+    $("#first").removeClass("button-active");
+  }
+}
+
+var checks = {
+  girl: false,
+  group: false,
+}
+
+function addCheck(element, str) {
+  if( str == 'girl'){
+    if (checks.girl) {
+      $("#girl").attr('src', 'static/img/gal2.png')
+    }
+    else {
+      $("#girl").attr('src', 'static/img/checked_girl.png')
+    }
+    checks.girl = !checks.girl
+  }
+  else {
+    if (checks.group) {
+      $("#group").attr('src', 'static/img/gal3.png')
+    }
+    else {
+      $("#group").attr('src', 'static/img/checked_oldies.png')
+    }
+    checks.group = !checks.group
+  }
+
+  if(checks.girl || checks.group){
+    $(".edit_buttons").show();
+  }
+  else {
+    $(".edit_buttons").hide();
+  }
+}
