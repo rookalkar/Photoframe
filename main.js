@@ -14,6 +14,7 @@ function cancelCall() {
 function showCTA() {
   if(tapped) {
     $("#cta_buttons").hide()
+    $(".multiple_replies").hide()
   }
   else {
     $(".caption").slideDown()
