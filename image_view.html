@@ -7,61 +7,30 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="static/css/style.css" />
-    <script type="text/javascript" src="main.js"></script>
     <title></title>
   </head>
   <body>
-    <div class="wrapper">
-      <div id="display">
-        <div class="mycontainer" onclick="showCTA()">
-          <img src="static/img/baby2.jpg"></img>
-          <button class="secondary_button" id="gallery">Gallery</button>
+    <div class="mycontainer">
+      <img src="static/img/baby1.png"></img>
+      <button class="secondary_button">Gallery</button>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="user">
+            <p><img src="static/img/john_image.png"></img>
+            John</p>
+          </div>
         </div>
-        <div class="container caption">
-          <div class="row">
-            <div class="col-md-9">
-              <div class="user">
-                <p><img src="static/img/john_image.png"></img>
-                John</p>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <p class="time">5 minutes ago</p>
-            </div>
-          </div>
-          <p class="message"> Jules being adorable, as always.</p>
-
-          <div class="reply">
-            <hr/>
-            <textarea class="reply_input" placeholder="Write a reply for John" autofocus></textarea>
-            <div class="row" id="reply_cta_buttons">
-              <button class="secondary_button" style="width: 440px; height: 90px;" onclick="hideReply()">CANCEL</button>
-              <button class="primary_small_button" onclick="sendReply()">SEND</button>
-            </div>
-          </div>
-
-          <div class="multiple_replies">
-            <hr/>
-            <img src="static/img/replies.png" style="margin-top: 50px;">
-          </div>
-
-          <div class="row" id="cta_buttons">
-            <button class="primary_small_button" onclick="writeReply()">REPLY</button>
-            <button class="primary_small_button" onclick="makeCall()">CALL</button>
-          </div>
+        <div class="col-md-3">
+          <p class="time">5 minutes ago</p>
         </div>
       </div>
-      <div id="overlay">
-        <p class="name">John Mobile</p>
-        <p class="number">+1 5823453932</p>
-        <hr/>
-        <p class="name">John Office</p>
-        <p class="number">+1 5823453932</p>
-        <hr/>
-        <div class="row">
-          <button class="secondary_button" style="width: 300px; height:90px;" onclick="cancelCall()">CANCEL</button>
-          <button class="primary_button" style="width: 300px; padding: 23px; height:90px; line-height: 45px;">CALL</button>
-        </div>
+      <p class="message"> Jules being adorable, as always.</p>
+      <div class="row">
+        <button class="primary_small_button">REPLY</button>
+        <button class="primary_small_button">CALL</button>
       </div>
     </div>
   </body>
